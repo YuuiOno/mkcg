@@ -7,6 +7,7 @@ To install _mkcg_, you need our _matvec (mv)_ header-only library and our _gro_ 
 The basic installation command using root privileges is as follows:
 ```
 git clone https://github.com/YuuiOno/mkcg.git
+cd mkcg
 mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_WITH_INSTALL_RPATH=true
@@ -16,6 +17,7 @@ sudo make install
 . If root privileges are not available, use the `-DCMAKE_INSTALL_PREFIX` option to specify a directory where you have permissions.
 ```
 git clone https://github.com/YuuiOno/mkcg.git
+cd mkcg
 mkdir build
 cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=[A DIRECTORY WHERE YOU HAVE PERMISSIONS] -DCMAKE_BUILD_WITH_INSTALL_RPATH=true
