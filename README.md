@@ -20,4 +20,5 @@ cmake .. -DCMAKE_INSTALL_PREFIX=[A DIRECTORY WHERE YOU HAVE PERMISSIONS] -DCMAKE
 make
 make install
 ```
+# Usage
 For basic command usage, check with `-h` or `--help`. Setting `-t` or `--target` to `CNT` will generate structural data for a single carbon nanotube (CNT). If set to `CNTGRA`, it will generate structural data of two perforated graphene sheets connected by CNT. Setting it to `GRA` will geberate structural data for graphene sheets (including perforated or/and multilayered structures).
