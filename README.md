@@ -1,7 +1,9 @@
-# mkcg
+# MKCG
 The software making carbon's nano structures for Gromacs.
 
 # Installation
+To install _mkcg_, you need the _matvec_ header-only library and the _gro_ library. These required libraries can be installed together using the commands listed below. Since C++11 is required for compilation, older compilers cannot be used. For example, if using gcc, please ensure you have version 5.1 or higher.
+
 The basic installation command using root privileges is as follows:
 ```
 git clone https://github.com/YuuiOno/mkcg.git
